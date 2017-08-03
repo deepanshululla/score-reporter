@@ -21,7 +21,7 @@ p1B.addEventListener("click", function(){
         p1Score+=1;
         p1ScoreTag.textContent=p1Score;
     }
-    else if(p1Score>=maxScore){
+    else if(p1Score>=(maxScore-1)){
        
             p1ScoreTag.classList.add("winner");
             p2ScoreTag.classList.add("loser");
@@ -46,7 +46,7 @@ p2B.addEventListener("click", function(){
         p2Score+=1;
         p2ScoreTag.textContent=p2Score;
     }
-    else if(p2Score>=maxScore){
+    else if(p2Score>=(maxScore-1)){
         p1ScoreTag.classList.add("loser");
         p2ScoreTag.classList.add("winner"); 
         gameOver=true;
@@ -78,6 +78,7 @@ function reset(){
     p2ScoreTag.classList.remove("winner");
     p2ScoreTag.classList.remove("loser");
     statusTag.textContent="";
+	
     
     gameOver=false;
 

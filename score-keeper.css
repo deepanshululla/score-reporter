@@ -1,0 +1,25 @@
+.centered{
+            /*margin:50px; */
+            text-align: center;
+            /*border: 2px solid red;*/
+            /*padding: 20%;*/
+ }
+.winner{
+    color: green;
+    border: 2px solid green;
+    padding: 3px;
+}
+.loser{
+    color: red;
+    border: 2px solid red;
+    padding: 3px;
+}
+
+.basicBorder{
+    border: 1px solid blue;
+    padding: 3px;
+}
+#maxScore {
+    padding: 3px;
+    border: 1px solid black;
+}

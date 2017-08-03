@@ -8,9 +8,13 @@ Visit at
 https://deepanshululla.github.io/score-reporter/
 
 Tools Used:
-HTML
-CSS
-Bootstrap
-JavaScript
+
+-- HTML
+
+-- CSS
+
+-- Bootstrap
+
+-- JavaScript
 
 

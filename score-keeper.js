@@ -27,14 +27,14 @@ p1B.addEventListener("click", function(){
             p2ScoreTag.classList.add("loser");
             gameOver=true;
 
-            statusTag.textContent="Game over. Press Reset to restart";
+            statusTag.textContent="Game over. Press Reset to Restart";
         }  
     else{
         
         p1ScoreTag.classList.add("loser");
         p2ScoreTag.classList.add("winner");
         gameOver=true;
-        statusTag.textContent="Game over. Press Reset to restart";
+        statusTag.textContent="Game over. Press Reset to Restart";
 
 
     }
